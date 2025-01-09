@@ -1,14 +1,17 @@
 {
-  "name": "neam/php-sie",
-  "description": "PHP port of https://github.com/barsoom/sie",
+  "name": "brioxab/php-sie",
+  "description": "Fork of https://github.com/neam/php-sie",
   "keywords": [
     "php",
     "sie"
   ],
-  "homepage": "https://github.com/neam/php-sie",
+  "homepage": "https://github.com/brioxab/php-sie",
   "type": "library",
   "license": "MIT",
   "authors": [
+    {
+      "name": "Briox"
+    },
     {
       "name": "Fredrik Wollsén",
       "email": "fredrik@neam.se"
