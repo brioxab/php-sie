@@ -63,8 +63,8 @@ class BuildEntry
                     }
                     $values = [];
                     for ($pair = 0; $pair < $pairs; $pair++) {
-                        $values[$type[0]] = $attr_tokens[$pair];
-                        $values[$type[1]] = $attr_tokens[$pair + 1];
+                        $values[$type[0]] = $attr_tokens[$pair * 2];
+                        $values[$type[1]] = $attr_tokens[$pair * 2 + 1];
                         $entry->attributes->$label[] = $values;
                     }
 
